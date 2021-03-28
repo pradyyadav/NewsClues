@@ -17,7 +17,7 @@ Classifies the news given as input as real or fake and uses Word2Vec model for c
 
 ## Word2Vec
 ---
-![w2v_image](https://miro.medium.com/max/700/1*hELlVp9hmZbDZVFstS61pg.png)
+![w2v_image](https://github.com/pradyyadav/Images/blob/main/w2v.png?raw=true)
 
 The purpose of *Word2vec* is to group the vectors of similar words together in vectorspace. That is, it detects similarities mathematically. *Word2Vec* creates vectors that are distributed numerical representations of word features, features such as the context of individual words.
 
@@ -32,15 +32,19 @@ Learn more about LSTM in this [article](https://colah.github.io/posts/2015-08-Un
 ## Instructions to run locally
 ---
 - Clone this repository
+
 ```git clone https://github.com/pradyyadav/NewsClues ```
 
 - Check Django Installation
+
 ``` python -m django --version ```
 
 - Install Django if not installed
+
 ``` python -m pip install Django```
 
 - Install all the dependencies
+
 ``` pip install -r requirements.txt```
 
 ## Languages and Frameworks
