@@ -5,7 +5,6 @@ from ml.news_detection import predict
 import tensorflow as tf
 
 def index(request,*args,**kwargs):
-    print(request.method)
     if request.method == 'POST':
         info = request.POST['news']
         result,predi = predict(info)    
