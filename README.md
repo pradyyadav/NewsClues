@@ -35,17 +35,21 @@ Learn more about LSTM in this [article](https://colah.github.io/posts/2015-08-Un
 
 ```git clone https://github.com/pradyyadav/NewsClues ```
 
+
 - Check Django Installation
 
 ``` python -m django --version ```
+
 
 - Install Django if not installed
 
 ``` python -m pip install Django```
 
+
 - Install all the dependencies
 
 ``` pip install -r requirements.txt```
+
 
 ## Languages and Frameworks
 ---
