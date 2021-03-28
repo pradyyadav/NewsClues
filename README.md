@@ -33,22 +33,30 @@ Learn more about LSTM in this [article](https://colah.github.io/posts/2015-08-Un
 ---
 - Clone this repository
 
-```git clone https://github.com/pradyyadav/NewsClues ```
+```
+$ git clone https://github.com/pradyyadav/NewsClues 
+```
 
 
 - Check Django Installation
 
-``` python -m django --version ```
+``` 
+$ python -m django --version 
+```
 
 
 - Install Django if not installed
 
-``` python -m pip install Django```
+``` 
+$ python -m pip install Django
+```
 
 
 - Install all the dependencies
 
-``` pip install -r requirements.txt```
+```
+$ pip install -r requirements.txt
+```
 
 
 ## Languages and Frameworks
