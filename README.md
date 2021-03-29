@@ -5,6 +5,10 @@
 
 Classifies the news given as input as real or fake and uses Word2Vec model for creating word embeddings and these embeddings are then used in the embedding layer as weights.
 
+**Training accuracy   : 0.9859**
+
+**Validation accuracy : 0.9731**
+
 ## Machine Learning Techniques
 ---
 - Natural Language Processing
