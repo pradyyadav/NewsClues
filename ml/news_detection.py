@@ -37,11 +37,11 @@ def tokenization(text):
 def predict(text):
     info = text
     sequences = tokenization(lemmatization(info))
-    sequences = pad_sequences(sequences, padding = 'post', truncating = 'post', maxlen = 15)
+    sequences = pad_sequences(sequences, padding = 'post', truncating = 'post', maxlen = 900)
     sequences = np.array(sequences)
     len(sequences)
     model = tf.keras.models.load_model(str(BASE_DIR) + '/ml/news_model.h5')
-    prediction = model.predict(sequences.reshape(-1,15))[0][0]
+    prediction = model.predict(sequences.reshape(-1,900))[0][0]
     prediction = float("{:.3f}".format(prediction))
 
     if prediction > 0.6:
