@@ -9,6 +9,8 @@ Classifies the news given as input as real or fake and uses Word2Vec model for c
 
 **Validation accuracy : 0.9731**
 
+**Kaggle Score : 0.98076**
+
 ## Machine Learning Techniques
 ---
 - Natural Language Processing
