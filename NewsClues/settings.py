@@ -28,9 +28,9 @@ if os.path.exists(dotenv_file):
 SECRET_KEY = os.environ['SECRET_KEY']
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [os.environ.get('CURRENT_HOST'), "localhost"]
 
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR,'static/css/styles.css') 

@@ -10,11 +10,15 @@ except:
 import re
 import pickle
 import numpy as np
+import nltk
+nltk.download('stopwords')
+nltk.download('wordnet')
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 from pathlib import Path
 from math import trunc
+
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 

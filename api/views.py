@@ -12,4 +12,4 @@ def index(request,*args,**kwargs):
     return render(request,'index.html')
 
 
-# Create your views here.
+# Create your views here.   
